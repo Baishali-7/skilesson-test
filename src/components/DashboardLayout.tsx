@@ -137,14 +137,14 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                             <BookOpen className="w-4 h-4" />
                             My Lessons
                           </Link>
-                          <Link
+                          {/* <Link
                             href="/dashboard/settings"
                             onClick={() => setUserMenuOpen(false)}
                             className="w-full flex items-center gap-3 px-4 py-2 text-sm text-slate-300 hover:text-snow hover:bg-white/[0.04] transition-colors"
                           >
                             <Settings className="w-4 h-4" />
                             Settings
-                          </Link>
+                          </Link> */}
                           <button
                             onClick={() => setUserMenuOpen(false)}
                             className="w-full flex items-center gap-3 px-4 py-2 text-sm text-slate-300 hover:text-snow hover:bg-white/[0.04] transition-colors"
