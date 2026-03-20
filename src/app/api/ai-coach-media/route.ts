@@ -24,7 +24,7 @@ async function analyzeImage(buffer: Buffer) {
         images: [base64],
         stream: false,
         options: {
-          num_predict: 80, // ✅ limit output
+          num_predict: 50, // ✅ limit output
         },
       }),
       signal: controller.signal,
